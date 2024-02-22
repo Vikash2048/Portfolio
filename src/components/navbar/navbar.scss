@@ -1,0 +1,48 @@
+.navbar {
+    height: 100px;
+
+
+    .wrapper {
+
+        display: flex;
+        max-width: 900px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        .logo_wrap {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            .logoImg {
+                width: 80px;
+                border-radius: 50%;
+            }
+
+            span {
+                font-size: x-large;
+                font-weight: bold;
+            }
+        }
+
+        .social {
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                gap: 20px;
+
+                img {
+                    width: 30px;
+                }
+            }
+
+        }
+
+    }
+
+
+
+}
